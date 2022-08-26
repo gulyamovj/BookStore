@@ -4,16 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
     <title>BookStore</title>
 </head>
 <body>
-    <header class="header">
-        <div class="logo">
-            <img src="files/Logo.svg" alt="Logotype">
-        </div>
-        <div class="search"></div>
-        <div class="lang"></div>
-        <div class="userblock"></div>
-    </header>
+    <div class="header-wrapper">
+        <header class="header">
+            <div class="logo">
+                <img src="files/Logo.svg" alt="Logotype">
+            </div>
+            <div class="search">
+                <p class="search-title">Книга, серия, автор, жанр, издательство</p>
+                <img src="files/Filter.svg" alt="filter">
+                <a href="#"><img src="files/Search-icn.svg" alt="search"><span class="btn">Поиск</span></a>
+            </div>
+            <div class="lang">
+                <span>Lang</span> 
+                <img src="files/Arrow down.svg" alt="Down">
+            </div>
+            <div class="user-block">
+                <a href="#" class="fav">
+                    <img src="files/Favorite.svg" alt="Favorite">
+                </a>
+                <a href="#" class="basket">
+                    <img src="files/Basket.svg" alt="basket">
+                </a>
+                <a href="#" class="User">
+                    <img src="files/User.svg" alt="user">
+                    <span>Войти</span>
+                </a>
+            </div>
+        </header>
+    </div>    
 </body>
 </html>
